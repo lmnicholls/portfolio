@@ -31,7 +31,7 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>Lauren Nicholls</Span>
         </a>
       </Link>
     </Div1>

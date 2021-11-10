@@ -4,15 +4,7 @@ export const projects = [
     description:
       "Closing Time is a business to business customer relationship platform app similar to Hubspot that assists companies in tracking customers, deals and revenue. Built using React, Redux, Aphrodite, Highcharts, Node.js, Express & MongoDB.",
     image: "/images/closingTime.png",
-    tags: [
-      "Mongo",
-      "Express",
-      "React",
-      "Redux",
-      "Aphrodite",
-      "Highcharts",
-      "Node",
-    ],
+    tags: ["React", "Redux", "Node", "Mongo", "Express"],
     source: "https://github.com/lmnicholls/hubspot",
     visit: "https://closing-time.herokuapp.com/companies",
     id: 0,
@@ -22,15 +14,7 @@ export const projects = [
     description:
       "Therapy & Me is an app meant to help users get the most out of their therapy sessions. Users can track feelings, maintain a journal, create a checklist for their sessions, and utilize a post-it board for ideas and strategies. Built using React, Redux, Styled Components, Highcharts, Node.js, Express, & MongoDB.",
     image: "/images/therapy&me.png",
-    tags: [
-      "React",
-      "Redux",
-      "Styled Components",
-      "Highcharts",
-      "Mongo",
-      "Express",
-      "Node",
-    ],
+    tags: ["React", "Redux", "Mongo", "Express", "Node"],
     source: "https://github.com/lmnicholls/journal-app",
     visit: "https://therapy-and-me.herokuapp.com/",
     id: 1,
@@ -63,4 +47,11 @@ export const TimeLineData = [
   { year: 2019, text: "Founded JavaScript Mastery" },
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
+];
+
+export const data = [
+  { number: 20, text: "Open Source Projects" },
+  { number: 1000, text: "Students" },
+  { number: 1900, text: "Github Followers" },
+  { number: 5000, text: "Github Stars" },
 ];
